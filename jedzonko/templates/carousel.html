@@ -3,7 +3,7 @@
         <div class="carousel-inner container">
             {% for x in recipes %}
                 <div class="carousel-item {% if forloop.counter == 1 %} active {% endif %}">
-                    <div class="container w-75 d-flex">
+                    <div class="container w-75 d-flex" style="display: flex;justify-content: center;align-items: center">
                         <div class="carousel-caption d-block">
                             <h1>{{ x.name }}</h1>
                             <h3> {{ x.description }}</h3>
