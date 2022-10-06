@@ -1,5 +1,5 @@
-# Zaplanuj Jedzonko
-> Outline a brief description of your project.
+# zaplanuj-jedzonko
+> ### Simple meal planning application.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -8,7 +8,6 @@
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -17,69 +16,57 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+The app promotes healthy eating and emphasises the important role meal planning plays in it. I hope, that the ease of choosing between different diet options and the ability to assign meals to specific eating plans will improve the quality of life for many people.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Python - version 3.10.6
+- Django - version 3.2
+- PostgreSQL - version 14.5
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
+- adding and modifying recipes
+- displaying a list of recipes
+- creating, displaying and modifying the feeding schedule
+- voting on recipes (like/dislike)
+- carousel with recipes on the home page
+- pagination of recipes and nutrition plans
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./imgs/screen1.png)
+![Example screenshot](./imgs/screen2.png)
+![Example screenshot](./imgs/screen3.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+Requirements/dependencies are listed in a requirements.txt file which is located in the project's main directory.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- adding meals to the plan in the right order
+- like/dislike buttons
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- deleting recipes
+- deleting and editing plans
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- This project was based on ScrumLab workshop in Coders Lab IT school.
+- Many thanks to my Scrum team!
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Co-created by [@skka7](https://www.linkedin.com/in/sebastian-kazmierczak) - feel free to contact me!
 
 
 <!-- Optional -->
