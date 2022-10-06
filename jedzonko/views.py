@@ -15,7 +15,7 @@ class IndexView(View):
         recipes = Recipe.objects.all()
         plans = Plan.objects.all().order_by('-created')
         if recipes and plans:
-            random_recipes = random.choices(recipes, k=3)
+            random_recipes = random.choices(recipes, k=5)
             plan = plans[0]
             ctx = {"actual_date": datetime.now(), 'recipes': random_recipes, 'plan': plan}
             return render(request, "index.html", ctx)

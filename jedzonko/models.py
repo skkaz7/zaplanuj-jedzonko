@@ -14,12 +14,18 @@ class Recipe(models.Model):
     preparation_time = models.IntegerField()
     votes = models.IntegerField(default=0)
 
+    def __str__(self):
+        return self.name
+
 
 class Plan(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
     recipes = models.ManyToManyField(Recipe, through="RecipePlan")
+
+    def __str__(self):
+        return self.name
 
 
 DAY_NAME = (
@@ -50,8 +56,3 @@ class Page(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
     slug = models.SlugField(max_length=255, unique=True)
-
-    def save(self, *args, **kwargs):
-        if not self.slug:
-            self.slug = slugify(self.title)
-        super(Page, self).save(*args, **kwargs)
