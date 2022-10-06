@@ -66,7 +66,7 @@ To do:
 
 
 ## Contact
-Co-created by [@skka7](https://www.linkedin.com/in/sebastian-kazmierczak) - feel free to contact me!
+Co-created by [@skkaz7](https://www.linkedin.com/in/sebastian-kazmierczak) - feel free to contact me!
 
 
 <!-- Optional -->
